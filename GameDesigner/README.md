@@ -1,6 +1,10 @@
 <h1 align="center">GameDesigner</h1>
 
-Initalement prévu pour être un moteur graphique de création de jeu vidéo en n'utilisant que l'API Windows.
-J'ai codé ce projets en essayant de mettre en oeuvre les bonnes pratiques de développement C++ (pointeur intelligent, documentation des classes et des fonctions...).
+### Moteur graphique de jeu vidéo
 
-Le projet compile, mais rien ne s'affiche. 
+Je voulais essayer de créer un moteur graphique de jeu vidéo en n'utilisant que l'API Windows, même si le réel but était d'apprendre le C++ en mettant en oeuvre les bonnes pratiques de développement (pointeur intelligent, documentation des classes et des fonctions, séparations des responsabilités...). Je me suis limité à l'API Windows pour éviter d'apprendre un Framework plutôt que le C++.
+
+J'ai arrêter ce projet car je ne trouvais pas de solution convenable pour afficher une image animée (style .gif).
+
+- Dernières modification: 19/06/23
+- État actuel: compile, une simple fenêtre blanche s'affiche.
