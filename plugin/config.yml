@@ -1,0 +1,46 @@
+permissions:
+
+  apprenti:
+  -  "command.money.self"
+  -  "command.money.other"
+  -  "command.pay"
+  
+  sorcier:
+  
+  
+  mage:
+  -  "command.hat"
+  
+  
+  devin:
+  -  "command.heal.self"
+  -  "command.feed.self"
+  
+  necromancien:
+  
+  
+  helpeur:
+  
+  
+  modo:
+  -  "command.heal.other"
+  -  "command.feed.other"
+  -  "command.fly.self"
+  
+  
+  supermodo:
+  -  "command.mlg.self"
+  -  "command.mlg.other"
+  -  "command.creatures"
+  -  "command.player"
+  
+  
+  admin:
+  -  "command.addmoney"
+  -  "command.removemoney"
+  -  "command.fly.other"
+  
+  
+  owner:
+  -  "command.perm"
+  -  "command.setgrade"

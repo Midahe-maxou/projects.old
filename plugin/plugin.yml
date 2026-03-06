@@ -1,0 +1,82 @@
+name: PvpFac
+version: 1.0
+author: Midahe
+main: fr.midahe.main.Main
+api-version: 1.13
+
+commands:
+
+  day:
+    description: set the day in the world
+    usage: /<command>
+    permission: op
+
+  night:
+    description: set the night in the world
+    usage: /<command>
+    permission: op
+
+  clearlag:
+    description: delete all dropped items
+    usage: /<command>
+    permission: op
+
+  player:
+    description: do action for targeted player
+    usage: /<command> <player> <action>
+    aliases: [p]
+    permission: op
+
+  creatures:
+    description: do action for all mob
+    usage: /<command> <action>
+    aliases: [mob]
+
+  shop:
+    description: the shop where you buy items
+    usage: /<command>
+
+  hat:
+    description: put object in your hand into helmet's location
+
+  fly:
+    description: set flying player
+
+  majorleaguegaming:
+    description: train to mlg
+    aliases: [mlg]
+
+  heal:
+    description: heal players
+
+  feed:
+    description: feed players
+
+  balance:
+    description: give amount of money
+    aliases: [bal,money]
+
+  pay:
+    description: give your money to an other player
+
+  addmoney:
+    description: add money for specified player
+
+  removemoney:
+    description: remove money for specified player
+
+  setgrade:
+    description: set grade for specified player
+
+
+
+
+
+  permission:
+    description: set to player some permission
+    aliases: [perm]
+
+
+
+
+
