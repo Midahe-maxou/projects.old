@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "helvetica";
+	src: url("./font/helvetica.ttf");
+}
+
+@font-face {
+	font-family: "helvetica bold";
+	src: url("./font/helvetica-bold.otf");
+}
+
+@font-face {
+	font-family: "happy font";
+	src: url("./font/happy-font.ttf");
+}
+
+@font-face {
+	font-family: "grand royal";
+	src: url("./font/grand-royal.ttf");
+}
+
+@font-face {
+	font-family: "junegull";
+	src: url("./font/junegull.ttf");
+}
+
+@font-face {
+	font-family: "avenir next";
+	src: url("./font/AvenirNext-Regular.otf");
+}

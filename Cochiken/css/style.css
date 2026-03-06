@@ -1,0 +1,417 @@
+html{
+	background-color: black;
+}
+
+body{
+	background-color: black;
+}
+
+/*Header*/
+
+#header{
+	top:0;
+	background-color: black;
+	z-index: 2020;
+}
+
+.header-contenu{
+	padding-bottom: 10px;
+}
+
+.header-accueil{
+	text-align: center;
+}
+
+.header-accueil h1{
+	color: red;
+	font: 80px "junegull";
+	margin: 20px 0;
+}
+
+.header-menu{
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+}
+
+.header-liens{
+	margin: auto;
+	color: white;
+	font: small-caps bold 25px helvetica;
+	padding: 20px 0;
+}
+
+.header_menu-button{
+	padding: 0px 15px;
+	text-decoration: none;
+	color: currentColor;
+}
+
+.header_menu-button:hover{
+	color: #DB9;
+	font-style: italic;
+}
+
+.header-connection{
+	margin: auto;
+	margin-left: 0;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.header_connection-button{
+	padding: 2px 0;
+	text-decoration: none;
+	font: 15px cursive;
+	color: #EEE;
+}
+
+.header_connection-button:hover{
+	color: #DB9;
+	font-style: italic;
+}
+
+.header-connecte{
+	color: white;
+	margin: auto;
+	font: 20px "helvetica bold";
+	text-align: center;
+}
+
+.liste-deroulante{
+	font: 18px "avenir next";
+	text-align: left;
+	position: absolute;
+	width: 250px;
+	padding: 15px 10px;
+
+	z-index: 100;
+	background-color: black;
+	border: 2px groove grey;
+
+	transition: all 300ms ease-in-out;
+	transform: scaleY(0);
+	transform-origin: top;
+}
+
+.ligne-liste{
+	margin: 10px 0px;
+}
+
+.lien-liste{
+	color: white;
+	text-decoration: none;
+}
+
+.lien-liste:hover{
+	color: #CCC;
+	text-decoration: underline;
+}
+
+.pseudo{
+	text-align: center;
+	text-decoration: underline;
+	margin-bottom: 30px;
+	font: 24px "avenir next";
+}
+
+/*Copyright*/
+#copyright{
+	margin-top: 15px;
+	background-color: black;
+	border-top: 5px dotted white;
+}
+
+.copyright-contenu{
+	width: 90%;
+	margin: auto;
+	color: white;
+	display: flex;
+	flex-direction: row;
+}
+
+.nous-contacter{
+	width: 45%;
+	margin-left: 10%;
+	font: 20px "avenir next";
+}
+
+.nom{
+	margin: 5px;
+}
+
+.newsletter{
+	width: 45%;
+	margin-right: 10%;
+	font: 20px "avenir next";
+	text-align: center;
+}
+
+#email{
+	padding: 10px 30px;
+	border: 2px solid #333;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.abonner-bouton{
+	margin-top: 5px;
+	padding: 10px;
+	font-size: 20px;
+	font-family: "junegull";
+}
+
+/*Index*/
+
+.clients{
+    width: 988px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid #666;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.commentaire{
+	padding: 5px;
+	margin-left: 20px;
+}
+
+/*Inscription & Connection*/
+
+.bouton{
+	background-color: #999;
+	padding: 5px 20px;
+	font: bold 22px helvetica;
+	border: 2px solid #222;
+	border-radius: 10px;
+
+	transition: all 0.2s ease-out;
+}
+
+.bouton:hover{
+	background-color: #CCC;
+	border-color: #555;
+}
+
+.connection{
+	padding-top: 25px;
+	border-top: 1px solid #555;
+	font-size: 20px;
+}
+
+.souvenir{
+    font: italic 17px helvetica;
+}
+
+/*Compte*/
+
+.mon-compte{
+	width: 70%;
+	margin: auto;
+	padding-top: 20px;
+	font: 20px "avenir next";
+}
+
+.changer-bouton{
+	margin-top: 20px;
+	padding: 5px 10px;
+}
+
+/*Boutique*/
+
+.bloc1{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	width: 988px;
+	margin-bottom: 20px;
+}
+
+.bloc2{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	width: 988px;
+}
+
+.article{
+	text-align: center;
+	font-size: 15px;
+	font-family: helvetica;
+	height: 270px;
+	width: 220px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: grey;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-radius: 15px;
+	background-color: lightgrey;
+	padding: 3px;
+}
+
+/*Recettes*/
+#recettes{
+	padding: 15px 0;
+}
+
+.recette{
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	padding: 10px;
+	background-color: #AAA;
+	border: 2px solid #666;
+	border-radius: 20px;
+	text-align: center;
+
+	transition: all 0.4s ease-out;
+}
+
+.recette:hover{
+	cursor: pointer;
+	background-color: #CCC;
+	border-color: #999;
+	border-radius: 10px;
+}
+
+/*Achat*/
+.achat{
+	display: flex;
+	flex-direction: row;
+	margin: auto 10px;
+	border: 2px solid #333;
+}
+
+.produit{
+	width: 30%;
+	border-right: 2px solid #555;
+}
+
+.acheter{
+	width: 70%;
+}
+
+.quantite{
+	margin: 0px;
+	font: 25px "avenir next";
+}
+
+/*Panier*/
+.commandes{
+	width: 80%;
+	border: 2px solid #333;
+	margin: auto;
+	padding: 10px;
+}
+
+.descriptif{
+	width: 80%;
+	background-color: #EEE;
+	margin-left: 50px;
+	padding: 10px 30px;
+	font: 18px "avenir next";
+}
+
+/*Classes attibuts*/
+.header-fixe{
+	position: fixed;
+	top: 0;
+	left: 8px;
+	right: 8px;
+}
+
+#contenu{
+	background-color: white;
+	margin: auto;
+	padding: 20px 10px;
+	width: 90%;
+}
+
+.erreur{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px 0;
+	text-align: center;
+	font: bold 22px "avenir next";
+	background-color: #F00;
+	border: 2px solid #C00;
+}
+
+.success{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px 0;
+	text-align: center;
+	font: bold 22px "avenir next";
+	background-color: #0F0;
+	border: 2px solid #0C0;
+	text-align: center;
+}
+
+.attention{
+	width: 400px;
+	margin: 10px auto;
+	padding: 10px 0;
+	text-align: center;
+	font: bold 22px "avenir next";
+	background-color: #FA0;
+	border: 2px solid #C90;
+}
+
+.saisie{
+	margin-top: 10px;
+	padding: 10px 20px;
+	border-radius: 10px;
+}
+
+.formulaire{
+	width: 700px;
+	margin: 20px auto;
+	padding-bottom: 20px;
+	border: 2px solid #333;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.ligne{
+	padding: 10px 0;
+	margin: 0px;
+	font: 20px "avenir next";
+}
+
+.titres{
+	text-align: center;
+	padding: 15px;
+}
+
+.souligne{
+	text-decoration: underline;
+}
+
+.nouvelle-section{
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border-top: 2px solid black;
+}
+
+.centre{
+	margin: auto;
+}
+
+.gauche{
+	text-align: left;
+}
+
+.droite{
+	text-align: right;
+}
+
+.conteneur-horizontal{
+	display: flex;
+	flex-direction: row;
+}
