@@ -1,4 +1,4 @@
-<h1 align="center">GameDesigner</h1>
+<h1 align="center" id="header">GameDesigner</h1>
 
 ### Moteur graphique de jeu vidéo
 

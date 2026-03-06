@@ -1,4 +1,4 @@
-<h1 align="center">Bioshock Bis</h1>
+<h1 align="center" id="header">Bioshock Bis</h1>
 
 ## Trainer interne du jeu Bioshock 1, version non remasterisée.
 
