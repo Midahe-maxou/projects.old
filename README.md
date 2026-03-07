@@ -8,6 +8,7 @@ La majorité n'est pas terminée, mais le but est de montrer ce que j'ai codé, 
 - [Bioshock Bis](https://github.com/Midahe-maxou/projects.old/tree/main/BioshockBis#header) (2025)
 - [Bioshock](https://github.com/Midahe-maxou/projects.old/tree/main/Bioshock#header) (2023)
 - [GameDesigner](https://github.com/Midahe-maxou/projects.old/tree/main/GameDesigner#header) (2023)
+- [Algorithme de recherche](https://github.com/Midahe-maxou/projects.old/tree/main/recherche#header) (2021)
 - [Cochiken](https://github.com/Midahe-maxou/projects.old/tree/main/Cochiken#header) (2021)
 - [Plugin minecraft 1.8](https://github.com/Midahe-maxou/projects.old/tree/main/plugin#header) (2019)
 
