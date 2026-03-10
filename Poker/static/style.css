@@ -1,0 +1,129 @@
+/* Déclaration des polices*/
+@font-face {
+    font-family: morana;
+    src: url("../static/font/morana.otf");
+}
+
+
+/*css*/
+
+body{
+    background: radial-gradient(at 50% 75%, #777, black);
+    height: 900px;
+}
+
+#contenu{
+    margin: auto;
+    width: 80%;
+}
+
+h1{
+    color: red;
+    width: max-content;
+    margin: auto;
+    font-size: 50px;
+    font-family: morana;
+}
+
+.header{
+    width: 60%;
+    height: max-content;
+    margin: 15px auto;
+    padding: 10px 0px;
+    background-color: black;
+    border: 1px cornsilk solid;
+}
+
+.liens{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.liens a{
+    color: #aaa;
+    font-size: 22px;
+    text-decoration: none;
+    transition: ease-in-out .2s;
+    margin: 2%;
+}
+
+.liens a:hover{
+    color: white;
+}
+
+.form{
+    width: 70%;
+    height: max-content;
+    margin: auto;
+    padding: 50px 0;
+    color: #222;
+    background: radial-gradient(#ababab, #eee);
+    border: 2px white solid;
+}
+
+.formulaire{
+    width: max-content;
+    margin: 20px auto;
+}
+
+.formulaire h2{
+    font-size: 28px;
+    width: max-content;
+    margin: auto;
+}
+
+.champs_form{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.formulaire p{
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+}
+
+.formulaire a{
+    text-decoration: none;
+    color: #F33;
+    transition: ease-in-out .2s; 
+}
+
+.formulaire a:hover{
+    color: white;
+}
+
+.submit_button{
+    font-size: 20px;
+    padding: 4px 15px;
+    border-radius: 5px;
+}
+
+.submit_button:hover{
+    color: black;
+    background-color: #ddd;
+}
+
+
+.erreur{
+    width: 500px;
+    padding: 10px 5px;
+    margin: 5px auto;
+    color: black;
+    font-size: 20px;
+    background-color: red;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.succes{
+    width: 500px;
+    padding: 10px 5px;
+    margin: 5px auto;
+    color: black;
+    font-size: 20px;
+    background-color: green;
+    border: 2px black solid;
+    border-radius: 5px;
+}

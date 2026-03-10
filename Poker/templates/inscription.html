@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>S'inscrire</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+</head>
+<body>
+    <div id="contenu">
+        {% include "/inclusions/header.html" %} {# permet d'inclure le code de "/inclusions/header.html" (en-tête) à cette place là #}
+
+        <div class="form">
+            <form action="" method="post" class="formulaire">
+                <h2>S'inscrire</h2>
+                <p>Nom d'utilisateur: <br><input type="text" name="pseudo" class="champs_form"></p>
+                <p>Mot de passe: <br><input type="text" name="mdp" class="champs_form"></p>
+                <p>Confirmation de mot de passe: <br><input type="text" name="confirm_mdp" class="champs_form"></p>
+                <input type="submit" class="submit_button" value="S'inscrire">
+                <p>Déjà inscrit ? <a href="/connection">Se connecter</a></p>
+            </form>
+            {% for erreur in erreurs %}
+            <p class="erreur">{{erreur}}</p>
+            {% endfor %}
+        </div>
+
+    </div>
+</body>
+</html>
