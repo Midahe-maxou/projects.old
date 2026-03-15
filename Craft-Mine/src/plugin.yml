@@ -1,0 +1,26 @@
+name: CraftAndMine
+author: Midahe
+version: 1.0
+description: Craft&Mine's plugin 
+main: main.Main
+api-version: 1.13
+
+commands:
+
+  game:
+    description: relative command of Craft&Mine's game
+    aliases: [g]
+    
+  reloadconfig:
+    description: reload the default config.yml
+    aliases: [rlconfig]
+    
+  challenges:
+    description: Command to open challenges' GUI
+    aliases: [defi, c, d]
+    
+  t:
+    description: see the elapsed time from the beginning of the game
+    
+  ntm:
+    description: blababla

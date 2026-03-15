@@ -1,0 +1,25 @@
+#Durée de la partie ("mm:ss")
+time: "00:05"
+
+#Lieu du hub 
+spawnArea:
+  world: "world"
+  x: -204.5
+  y: 120
+  z: -125.5
+  
+#Point d'apparition des joueurs lors du commencement de la partie
+startArea:
+  world: "world"
+  x: -204.5
+  y: 64
+  z: -125.5
+  
+#points donnés lors de l'accomplissement d'un défi de différents niveaux
+points:
+  lvl1: 1
+  lvl2: 2
+  lvl3: 3
+  
+#Message d'erreur dût à une commande executée sans les permissions nécéssaires (& -> §)
+prohibitedCommand: "&4Erreur: &cVous n'avez pas la permission de faire cette commande"

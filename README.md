@@ -11,6 +11,5 @@ La majorité n'est pas terminée, mais le but est de montrer ce que j'ai codé, 
 - [Algorithme de recherche](https://github.com/Midahe-maxou/projects.old/tree/main/recherche#header) (2021)
 - [Site et jeu Poker](https://github.com/Midahe-maxou/projects.old/tree/main/Poker#header) (2021)
 - [Cochiken](https://github.com/Midahe-maxou/projects.old/tree/main/Cochiken#header) (2021)
+- [Craft&Mine](https://github.com/Midahe-maxou/projects.old/tree/main/Craft-Mine#header) (2019)
 - [Plugin minecraft 1.8](https://github.com/Midahe-maxou/projects.old/tree/main/plugin#header) (2019)
-
-*à finir...*
